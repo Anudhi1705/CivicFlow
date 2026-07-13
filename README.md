@@ -40,25 +40,6 @@ CivicFlow is a full-stack web application designed to improve civic issue report
 
 ---
 
-## Project Structure
-
-
-CivicFlow/
-│── client/ # React Frontend
-│── server/ # Node.js & Express Backend
-│── src/
-│── components/
-│── pages/
-│── routes/
-│── controllers/
-│── models/
-│── middleware/
-│── package.json
-└── README.md
-
-
----
-
 ## Installation
 
 ### Clone Repository
