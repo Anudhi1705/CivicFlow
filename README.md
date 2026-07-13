@@ -39,5 +39,3 @@ CivicFlow is a full-stack web application designed to improve civic issue report
 - MongoDB Atlas
 
 ---
-
-## Project Structure
