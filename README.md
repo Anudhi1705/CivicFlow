@@ -1,19 +1,43 @@
-<div align="center">
-</div>
+# CivicFlow – Ecological Civic Dispatch and Citizen Empowerment Portal
 
-# Run and deploy your AI Studio app
+## Overview
+CivicFlow is a full-stack web application designed to improve civic issue reporting and municipal transparency. It enables citizens to report geo-tagged civic issues, track complaint status, and interact with local authorities through a centralized platform. The system also includes an EcoHub module to promote sustainable waste management and environmental awareness.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/807eaeaa-7849-472c-b90d-240de13f5495
+## Features
 
-## Run Locally
+- User Registration & Login (JWT Authentication)
+- Role-Based Access (Citizen & Admin)
+- Geo-tagged Issue Reporting using OpenStreetMap & Leaflet
+- Complaint Status Tracking
+- Public Complaint Feed with Upvote System
+- Ward-wise Complaint Monitoring
+- EcoHub for Recycling & E-Waste Information
+- Admin Dashboard with Complaint Analytics
+- Responsive User Interface
 
-**Prerequisites:**  Node.js
+---
 
+## Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Frontend
+- React.js
+- TypeScript
+- Vite
+- Tailwind CSS
+- Leaflet
+- OpenStreetMap
+
+### Backend
+- Node.js
+- Express.js
+- JWT Authentication
+- bcrypt
+
+### Database
+- MongoDB Atlas
+
+---
+
+## Project Structure
