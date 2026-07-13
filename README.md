@@ -91,10 +91,3 @@ Anudhi Mishra
 MCA | Vivekanand Education Society's Institute of Technology (VESIT)
 
 GitHub: https://github.com/Anudhi1705
-
-License
-
-This project is developed for academic purposes.
-
-
-Ye README **GitHub aur MNC recruiters** dono ke liye clean, ATS-friendly aur professional format me hai.
