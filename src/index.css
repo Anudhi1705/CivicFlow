@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-serif: "Poppins", sans-serif;
+  --font-syne: "Poppins", sans-serif;
+  --font-oswald: "Poppins", sans-serif;
+  
+  --color-paper: #ffffff;
+  --color-ink: #1b4332;
+  --color-accent: #2d6a4f;
+  --color-accent-light: #95d5b2;
+  --color-secondary-bg: #d8f3dc;
+  --color-text-light: #52796f;
+  --color-soft-bg: #f9fdfa;
+  --color-border-light: #edf5ef;
+}
+
+/* Custom soft grid background pattern or texture */
+.dot-grid {
+  background-image: radial-gradient(circle, rgba(45, 106, 79, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Custom line texture from requested design */
+.line-texture {
+  background-image: linear-gradient(rgba(45, 106, 79, 0.03) 1px, transparent 1px);
+  background-size: 100% 2.5rem;
+}
+
+/* Base style tweaks for the soft modern design */
+body {
+  background-color: #ffffff;
+  color: #1b4332;
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f9fdfa;
+  border-left: 1px solid #edf5ef;
+}
+::-webkit-scrollbar-thumb {
+  background: #2d6a4f;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1b4332;
+}

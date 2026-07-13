@@ -1,0 +1,6 @@
+{
+  "name": "CivicFlow",
+  "description": "A civic participation platform for reporting and tracking local community issues.",
+  "requestFramePermissions": ["geolocation", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
