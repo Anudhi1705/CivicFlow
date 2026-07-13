@@ -39,3 +39,81 @@ CivicFlow is a full-stack web application designed to improve civic issue report
 - MongoDB Atlas
 
 ---
+
+## Project Structure
+
+
+CivicFlow/
+│── client/ # React Frontend
+│── server/ # Node.js & Express Backend
+│── src/
+│── components/
+│── pages/
+│── routes/
+│── controllers/
+│── models/
+│── middleware/
+│── package.json
+└── README.md
+
+
+---
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Anudhi1705/CivicFlow.git
+cd CivicFlow
+Install Dependencies
+npm install
+Configure Environment Variables
+
+Create a .env file and add:
+
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+PORT=5000
+Run the Project
+
+Development Mode
+
+npm run dev
+
+Production Build
+
+npm run build
+Application Workflow
+User registers and logs in securely.
+Citizen submits a civic issue with title, description, category, severity, and location.
+Complaint location is captured using Leaflet and OpenStreetMap.
+Backend validates the request and stores the complaint in MongoDB.
+Complaint status is managed by the administrator.
+Citizens can track complaint progress and upvote existing issues.
+EcoHub provides nearby recycling and waste management information.
+Security
+JWT-based Authentication
+Password Hashing using bcrypt
+Role-Based Authorization
+Protected REST APIs
+Future Enhancements
+AI-based Complaint Classification
+SMS/Email/WhatsApp Notifications
+Government API Integration
+Mobile Application
+IoT-based Smart Waste Monitoring
+Author
+
+Anudhi Mishra
+
+MCA | Vivekanand Education Society's Institute of Technology (VESIT)
+
+GitHub: https://github.com/Anudhi1705
+
+License
+
+This project is developed for academic purposes.
+
+
+Ye README **GitHub aur MNC recruiters** dono ke liye clean, ATS-friendly aur professional format me hai.
